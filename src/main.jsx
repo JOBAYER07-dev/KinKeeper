@@ -3,22 +3,42 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { RouterProvider } from 'react-router/dom'
 import { createBrowserRouter } from 'react-router'
+import RootLayout from './Layout/RootLayout'
+import ErrorLayout from './Error/ErrorLayout'
+import FriendsShowPage from './Pages/FriendsShowPage/FriendsShowPage'
+import FriendDetails from './Pages/FriendDetails/FriendDetails'
+import TimelinePage from './Pages/TimelinePage/TimelinePage'
+import FriendshipAnalytics from './Pages/FriendshipAnalytics/FriendshipAnalytics'
 
-const router = createBrowserRouter(
-  [
-    {
-      path: '/',
-      element: <h1>Home</h1>
-    }, {
-      path: '/about',
-      element: <h1>About</h1>
-    },
-    {
-      path: '/contact',
-      element: <h1>Contact</h1>
-    }
-  ]
-)
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      {
+        index: true,
+        element: <h1>Home</h1>,
+      },
+      {
+        path: '/friends',
+        element: <FriendsShowPage />,
+      },
+      {
+        path: '/friends/:friendId',
+        element: <FriendDetails />,
+      },
+      {
+        path: '/timeline',
+        element: <TimelinePage />,
+      },
+      {
+        path: '/analytics',
+        element: <FriendshipAnalytics/>
+      }
+    ],
+    errorElement: <ErrorLayout />,
+  },
+]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
