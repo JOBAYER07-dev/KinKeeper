@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "picture": "https://i.ibb.co.com/fVFx9X4j/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.webp",
+    "email": "virat.kohli@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met at BUET during freshman year. We used to pull all-nighters before exams. He moved to Dhaka for work last year.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "picture":"https://i.ibb.co.com/8gqSJBnh/1749462943083-babar-azam.webp",
+    "email": "babar.azam@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "My senior at the office who helped me land my first freelance client. We catch up over tea every couple of weeks.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Shakib Al Hasan",
+    "picture": "https://i.ibb.co.com/8nRGpYsP/image-115605-1678807950.webp",
+    "email": "shakib.hasan@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["dev", "college"],
+    "bio": "Fellow web developer I met at a hackathon in Chittagong. We share resources and review each other's GitHub projects.",
+    "goal": 10,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 4,
+    "name": "Jos Buttler",
+    "picture": "https://i.ibb.co.com/cqWsYth/179geido-jos-buttler-625x300-02-March-26.webp",
+    "email": "jos.buttler@gmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["family", "childhood"],
+    "bio": "Grew up in the same neighborhood in Barisal. We've known each other since we were kids. She's now studying medicine in Rajshahi.",
+    "goal": 21,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 5,
+    "name": "Rashid Khan",
+    "picture":  "https://i.ibb.co.com/1GYLZFWg/8mvq5v38-rashid-khan-625x300-26-June-24.webp",
+    "email": "rashid.khan@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["close friend", "gaming"],
+    "bio": "Best friend from school. We still play online games every weekend and talk almost daily on Discord.",
+    "goal": 7,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 6,
+    "name": "David Warner",
+    "picture": "https://i.ibb.co.com/RTD78QkS/warner-player-of-the-tournamen-0-1200x768-1-1.webp",
+    "email": "david.warner@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["work", "design"],
+    "bio": "UI designer I collaborated with on a startup project last year. Her feedback completely changed how I think about user experience.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 7,
+    "name": "Jasprit Bumrah",
+    "picture":"https://i.ibb.co.com/sp6sLsBV/AFP-20241122-36-N39-GM-v1-High-Res-Cricket-Aus-Ind-1733131187.webp",
+    "email": "jasprit.bumrah@gmail.com",
+    "days_since_contact": 32,
+    "status": "overdue",
+    "tags": ["college", "travel"],
+    "bio": "We backpacked through Sylhet and Cox's Bazar together during semester break. Planning our next trip to Bandarban.",
+    "goal": 30,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 8,
+    "name": "Ben Stokes",
+    "picture":"https://i.ibb.co.com/213NgmLj/84522a0c15e2730e8137ef6162579936.webp",
+    "email": "ben.stokes@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["book club", "close friend"],
+    "bio": "We met at an online Bangla book club in 2023. She recommends the best novels and we discuss them over long voice calls.",
+    "goal": 10,
+    "next_due_date": "2026-04-21"
+  }
+]

@@ -9,6 +9,7 @@ import FriendsShowPage from './Pages/FriendsShowPage/FriendsShowPage'
 import FriendDetails from './Pages/FriendDetails/FriendDetails'
 import TimelinePage from './Pages/TimelinePage/TimelinePage'
 import FriendshipAnalytics from './Pages/FriendshipAnalytics/FriendshipAnalytics'
+import Homepage from './Pages/Homepage/Homepage'
 
 const router = createBrowserRouter([
   {
@@ -17,11 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <h1>Home</h1>,
-      },
-      {
-        path: '/friends',
-        element: <FriendsShowPage />,
+        element: <Homepage></Homepage>,
       },
       {
         path: '/friends/:friendId',
