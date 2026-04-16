@@ -1,8 +1,11 @@
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
 import FriendsShowPage from '../FriendsShowPage/FriendsShowPage';
+import { useLoaderData, Link } from 'react-router-dom';
 
 const Homepage = () => {
+  const friendsData = useLoaderData();
+
   return (
     <div className="container mx-auto my-10">
       <div className="text-center">
@@ -15,7 +18,6 @@ const Homepage = () => {
           relationships that matter most.
         </p>
         <button className="btn btn-success text-white">
-          {' '}
           <FaPlus />
           Add a Friend
         </button>
@@ -39,13 +41,18 @@ const Homepage = () => {
           <p className="text-gray-500">Interactions This Month</p>
         </div>
       </div>
-      
-      <div>
-        <FriendsShowPage />
+
+     
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {friendsData.map(friend => (
+          <Link to={`/friends/${friend.id}`} key={friend.id}>
+            
+            <FriendsShowPage friend={friend} />
+          </Link>
+        ))}
       </div>
     </div>
   );
-  
 };
 
 export default Homepage;
