@@ -20,7 +20,7 @@ const TimelinePage = () => {
     filter === 'All' ? entries : entries.filter(e => e.type === filter);
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8 bg-[#FAFAFA] min-h-screen">
+    <div className="container mx-auto px-4 py-8 bg-[#FAFAFA] min-h-screen">
       <h1 className="text-3xl font-extrabold text-gray-800 mb-6">Timeline</h1>
 
       {/* Filter */}
