@@ -9,6 +9,7 @@ import {
   FaVideo,
   FaRegCommentDots,
 } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 
 const FriendDetails = () => {
   const friend = useLoaderData();
@@ -17,6 +18,10 @@ const FriendDetails = () => {
 
   const handleCheckIn = type => {
     addEntry(friend, type);
+    toast.success(`Successfully added a ${type} with ${friend.name} `, {
+      position: 'top-left',
+      autoClose: 3000, 
+    });
     navigate('/timeline');
   };
 

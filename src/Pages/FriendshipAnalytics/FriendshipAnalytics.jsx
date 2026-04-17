@@ -31,16 +31,11 @@ const FriendshipAnalytics = () => {
     Call: '#2D4A3E', // Dark Green
     Video: '#3CB371', // Light Green
   };
-
-  // এখানে flex এবং flex-col যোগ করা হয়েছে যাতে সবকিছু মাঝখানে আসে
   return (
     <div className="container mx-auto flex flex-col items-center px-4 py-10 bg-[#FAFAFA] min-h-screen">
-      {/* টাইটেলটাকেও মাঝখানে রাখার জন্য text-center দেওয়া যায়, অথবা বামে রাখতে চাইলে শুধু w-full max-w-3xl দিতে পারো */}
       <h1 className="text-4xl font-extrabold text-[#1f2937] mb-8 w-full max-w-3xl">
         Friendship Analytics
       </h1>
-
-      {/* এখানে mx-auto এবং w-full যোগ করা হয়েছে */}
       <div className="bg-white border border-gray-100 shadow-sm rounded-xl p-8 w-full max-w-3xl mx-auto">
         <h3 className="text-lg font-semibold text-[#2D4A3E] mb-6 text-center">
           By Interaction Type

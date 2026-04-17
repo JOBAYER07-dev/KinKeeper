@@ -1,16 +1,15 @@
-# React + Vite
+-->>Name of your project.
+->KEEN KEEPER.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-->>A short description.
+->Keen Keeper is a personal relationship management web application designed to help users nurture and keep track of their meaningful connections.
 
-Currently, two official plugins are available:
+-->>Technologies you used.
+->React, React Router, Tailwind CSS, DaisyUI, React Icons, Rechart, React Tostify.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+-->>3 key features of your project.
+->1. Personalized Dashboard & Friend Profiles: A centralized hub that gives you a high-level overview of your relationships (like total friends and interactions) and detailed individual profiles where you can set specific connection goals. 
 
-## React Compiler
+->2. Quick Check-Ins & Activity Timeline: An easy-to-use system that lets you instantly log a Call, Text, or Video interaction with a friend, which is then recorded in a chronological, filterable activity timeline.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+->3. Visual Friendship Analytics: A dedicated statistics page featuring a dynamic Recharts-powered donut chart that breaks down your communication habits by interaction type, helping you see exactly how you stay in touch with your network.
